@@ -1,0 +1,2 @@
+.container { padding: 32px; }
+.grid { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; }

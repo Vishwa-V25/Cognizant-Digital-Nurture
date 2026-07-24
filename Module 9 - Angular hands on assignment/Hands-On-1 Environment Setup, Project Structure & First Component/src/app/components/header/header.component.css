@@ -1,0 +1,20 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: #1a237e;
+  padding: 14px 24px;
+  color: white;
+}
+.brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-right: auto;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
