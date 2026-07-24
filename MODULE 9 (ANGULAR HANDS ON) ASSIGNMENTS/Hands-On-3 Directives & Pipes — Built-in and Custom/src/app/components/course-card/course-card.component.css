@@ -1,0 +1,20 @@
+.card {
+  border: 1px solid #c5cae9;
+  border-radius: 8px;
+  padding: 16px;
+  background: #fff;
+  width: 220px;
+  transition: background 0.2s;
+}
+.card--enrolled { background: #e8f5e9; }
+.card--full { box-shadow: 0 0 0 2px #3949ab; }
+.expanded { min-height: 180px; }
+h3 { color: #1a237e; margin: 0 0 8px; }
+p { margin: 4px 0; color: #555; font-size: 0.9rem; }
+.badge { padding: 2px 10px; border-radius: 12px; font-size: 0.8rem; color: white; }
+.green { background: green; }
+.red { background: red; }
+.grey { background: grey; }
+.actions { display: flex; gap: 8px; margin-top: 10px; }
+button { padding: 5px 12px; background: #3949ab; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.85rem; }
+.details { margin-top: 12px; padding-top: 8px; border-top: 1px solid #eee; }
